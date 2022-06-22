@@ -1,0 +1,383 @@
+body {
+    background-color: #000000;
+    padding: 0 4%; 
+    color: #FFFFFF;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: Satoshi;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.custom-button {
+   
+    font-family: Satoshi;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: 1px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #3772FF;
+    border-radius: 100px;
+    padding: 17px 36px;
+}
+
+.custom-button:hover {
+    background: #3772FF;
+    opacity: 0.8;
+}
+
+.text-lighlitor {
+    color: #EC780F;
+}
+
+.extra-bg {
+    background-color: #151F2A;
+    border-radius: 20px;
+    padding: 63px 86px;
+}
+
+/*Start Navbar*/
+.navbar {
+    padding: 20px 0px;
+}
+
+.navbar-brand img {
+    width: 150px;
+}
+
+.nav-item {
+    padding: 0px 16.9px;
+    font-family: Satoshi;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+
+}
+
+.nav-item:hover {
+    background: #3772FF;
+    border-radius: 12px;
+    opacity: 0.8;
+}
+
+.social-icon {
+    margin-left: 50px;
+    margin-right: 30px;
+}
+
+.social-icon a {
+    margin: 0 10px;
+}
+
+.social-icon img {
+    width: 25px;
+    margin-top: 6px;
+}
+
+/*End Navbar*/
+
+/*Banner Start*/
+#banner {
+    margin: 80px 0px;
+}
+
+#banner h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 62px;
+    line-height: 74px;
+    
+     
+}
+#banner:hover{
+    animation: fadein .5s;
+
+
+}
+#banner h6 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    opacity: 0.8;
+    margin: 30px 0px 45px 0px;
+}
+
+/*Price Start*/
+#price {
+    margin: 80px 0px;
+}
+
+#price h1 {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+#price h6 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+    opacity: 0.8;
+}
+
+/*Price End*/
+
+/*Pool Start*/
+#pool {
+    margin: 80px 0px;
+}
+#pool h3 {
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 56px;
+}
+
+#pool p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    margin: 25px 0px 45px 0px;
+}
+#pool .seconr-part{
+    margin-top: 80px;
+}
+#pool .third-part{
+    margin-top: 80px;
+}
+
+/*Pool End*/
+
+/*Clints Start*/
+#clints {
+    margin: 80px 0px;
+}
+
+#clints h3 {
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 56px;
+}
+
+#clints p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    opacity: 0.8;
+}
+
+/*Card*/
+.card {
+    background-color: #151F2B;
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+
+.card img:hover {
+    transform: scale(1.3);
+    transition: 1s;
+}
+
+.card:hover {
+/*    box-shadow: 5px 5px 10px #494646;*/
+    box-shadow: 2px 2px 10px #494646;
+    transition: 1s;
+}
+
+.card p {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+/*Clints End*/
+
+/*Testimonial Start*/
+#testimonial{
+}
+#testimonial h3 {
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 56px;
+    margin-bottom: 50px;
+    text-align: center;
+   animation: test-fadein 1s;
+    
+    
+}
+
+
+
+.testimonial-img {
+    background: url(../images/Base.png);
+    border-radius: 8px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 253px;
+    height: 292px;
+
+}
+.testimonial-img:hover {
+    transform: scale(1.3);
+    transition: 1s;
+}
+
+.fa-quote-left {
+    position: absolute;
+    height: 115px;
+    left: 10.67%;
+    right: 49.8%;
+    top: calc(50% - 115px/2 + 128px);
+    font-family: Font Awesome 5 Free;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 115px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+#testimonial p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+}
+
+
+#testimonial .left-arro {
+    color: white;
+    margin-right: 20px;
+    opacity: 0.5;
+}
+
+#testimonial .right-arro {
+    color: white;
+}
+
+/*Testimonial End*/
+
+/*Grow Start*/
+#grow {
+    margin: 80px 0px;
+    
+}
+.grow-bg{
+    background-image: url(../images/Group%20154012.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    
+    
+}
+
+#grow .upercase {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #3772FF;
+    margin-top: 200px;
+    
+}
+
+#grow h3 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+
+#grow p {
+    font-family: Satoshi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    margin: 25px 0px;
+}
+
+/*Grow End*/
+
+/*Start Footer*/
+#footer {
+    margin: 80px 0px 0px 0px;
+}
+
+.footer-bg {
+    background-color: #151F2A;
+    border-radius: 20px;
+    padding: 63px 32px 30px 32px;
+}
+
+#footer p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 30px 0px 40px 0px;
+}
+
+#footer h6 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FCFCFD;
+}
+
+#footer .footer-icons i {
+    font-family: Font Awesome 5 Brands;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 25px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+#footer .footer-icons i:hover{
+    color: #3772FF;
+    opacity: 0.8;
+}
+#footer ul li {
+    margin-top: 25px;
+}
+
+#footer ul li a {
+    font-family: Satoshi;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    color: #777E91;
+}
+
+/*Footer End*/
+
+
